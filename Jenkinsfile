@@ -13,7 +13,7 @@ pipeline {
 		}
 		stage ('---------Deployment_to_Tomcat----------') {
 			steps {
-				bat "copy 'target\\MyMavenWebApp.war' 'C:\\Users\\pankaj.karma\\Desktop\\Tomcat_Web_Application\\webapps\\'
+				bat "copy target\\MyMavenWebApp.war C:\\Users\\pankaj.karma\\Desktop\\Tomcat_Web_Application\\webapps\\
 			}
 		}
 	}
